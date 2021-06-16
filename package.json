@@ -1,0 +1,25 @@
+{
+  "name": "infinity-pad-token",
+  "version": "1.0.0",
+  "description": "infinity-pad-token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daomaker/infinity-pad-token.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daomaker/infinity-pad-token/issues"
+  },
+  "homepage": "https://github.com/daomaker/infinity-pad-token#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "truffle-plugin-verify": "^0.5.9"
+  }
+}
