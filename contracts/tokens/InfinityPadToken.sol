@@ -20,8 +20,7 @@ contract InfinityPadToken is Ownable, ERC20Burnable {
    *
    * - `msg.sender` must be the token owner
    */
-  function mint(uint256 amount) public onlyOwner returns (bool) {
-    _mint(_msgSender(), amount);
-    return true;
+  function mint(address account, uint256 amount) external onlyOwner {
+    _mint(account, amount);
   }
 }
