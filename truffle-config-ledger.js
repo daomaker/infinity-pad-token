@@ -44,6 +44,12 @@ module.exports = {
     },
   },
   networks: {
+    api_keys: {
+      etherscan: process.env['ETHERSCAN_KEY']
+    },
+    plugins: [
+      'truffle-plugin-verify'
+    ],
     development: {
       host: "localhost",
       port: 7545,
