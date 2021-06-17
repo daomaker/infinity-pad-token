@@ -13,7 +13,7 @@ contract InfinityPadToken is Ownable, ERC20Burnable {
   }
 
   /**
-   * @dev Creates `amount` tokens and assigns them to `msg.sender`, increasing
+   * @dev Creates `amount` tokens and assigns them to `account`, increasing
    * the total supply.
    *
    * Requirements
